@@ -1,0 +1,33 @@
+package com.blemall.smokeTest.testcases.addshoppingcart;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import com.test.base.TestBase;
+
+public class TestCase_02_AddShoppingCartFromList extends TestBase {
+	@Test
+	public void addShoppingCart() throws InterruptedException {
+	driver.get("http://search.iokbl.com/k-%E6%89%8B%E6%9C%BA.html");
+		Actions action = new Actions(driver);
+		WebElement e1 = driver
+				.findElement(By
+						.xpath("//button[preceding-sibling::input[@value='洛克（ROCK）手机保护膜 苹果iPhone 5S/5C/5 金刚防爆膜']]"));
+		WebElement e2 = driver
+				.findElement(By
+						.xpath("html/body/div[5]/div[4]/div[2]/ul/li[10]/div/div[1]/a/img"));
+
+		action.clickAndHold(e2).build().perform();
+		e1.click();
+		action.release(e2);
+		//action.clickAndHold(e2).build().perform();
+		boolean result = e1.isDisplayed();
+		System.out.println(result + " " + e1.getText());
+		String s=driver.findElement(By.xpath(".//*[@id='cartNum']")).getText();
+		System.out.println("s= "+s);
+		driver.close();
+	}
+
+}

@@ -1,0 +1,18 @@
+inputbox:
+  type:xpath
+  value:".//*[@id='first_header_search_input']"
+button:
+  type:xpath
+  value:".//*[@id='search']/div/div/div[2]/div[4]/button"
+isgoodsexist:
+  type:xpath
+  value:"html/body/div[5]/div[4]/div[2]/ul/li[2]/div/div[1]/a/img[@title='洛克（ROCK）清爽薄隐形壳手机套 适用于苹果iPhone6 4.7英寸-金色']"
+goodsclick:
+  type:xpath
+  value:"html/body/div[5]/div[4]/div[2]/ul/li[2]/div/div[1]/a/img[@title='洛克（ROCK）清爽薄隐形壳手机套 适用于苹果iPhone6 4.7英寸-金色']"
+addshoppingcard:
+  type:xpath
+  value:".//*[@id='addCart']"
+goodsnum:
+  type:xpath
+  value:".//*[@id='cartNum']"

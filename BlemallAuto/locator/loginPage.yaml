@@ -1,0 +1,24 @@
+loginbutton:
+  type:xpath
+  value:".//*[@id='user_not_login']/a[text()='登录']"
+username:
+  type:id
+  value:loginId
+password:
+  type:id
+  value:password
+checknumber:
+  type:id
+  value:verifyCode
+click:
+  type:id
+  value:loginsubmit
+logincheck:
+  type:id
+  value:member_name
+screenshot:
+  type:xpath
+  value:".//*[@id='footer']/div[1]/div/div/div[3]/ul/li[2]/a"
+
+
+  

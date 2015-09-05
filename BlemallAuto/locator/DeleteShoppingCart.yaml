@@ -1,0 +1,15 @@
+删除前购物车商品数量:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[3]/div[1]/span[3]"
+删除:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[3]/div[2]/div[6]/a[2]"
+确认删除:
+  type:xpath
+  value:".//*[@id='popSubmitBtn']"
+购物车为空:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[3]/div/div/div[1]"
+删除后购物车商品数量:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[3]/div[1]/span[3]"

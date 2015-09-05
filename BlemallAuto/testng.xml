@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Created by Merry,Start!">
+  <test name="test1,Start!">
+    <classes>
+       <class name="com.blemall.smokeTest.testcases.login.TestCase_01_Login"/>
+       <class name="com.blemall.smokeTest.testcases.queryshoppingcart.TestCase_03_QueryShoppingCart"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_01_AddShoppingCartFromSingle"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_02_AddShoppingCartFromList"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_03_AddShoppingCartFromCollection"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_04_AddShoppingCart"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_05_AddShoppingCartFromHistory"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_06_AddShoppingCartFromCartHistory"/>
+       <class name="com.blemall.smokeTest.testcases.addshoppingcart.TestCase_07_AddShoppingCartFromCenter"/>
+       <class name="com.blemall.smokeTest.testcases.deleteshoppingcart.TestCase_01_DeleteShoppingCart"/>
+       <class name="com.blemall.smokeTest.testcases.order.TestCase_01_SubmitOrder"/>
+       <class name="com.blemall.smokeTest.testcases.order.TestCase_02_CancelOrder"/>
+       
+   
+   
+    </classes>
+  </test>
+</suite>

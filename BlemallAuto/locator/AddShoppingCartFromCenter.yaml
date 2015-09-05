@@ -1,0 +1,9 @@
+我的百联:
+  type:xpath
+  value:".//*[@id='tools']/div/div[2]/ul/li[2]/a"
+我的收藏:
+  type:xpath
+  value:"html/body/div[3]/div[2]/div[2]/dl/dd[2]/a"
+加入购物车:
+  type:xpath
+  value:".//*[@id='tr_886']/td[5]/button[1]"

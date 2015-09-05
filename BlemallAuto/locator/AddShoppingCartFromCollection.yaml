@@ -1,0 +1,18 @@
+collection:
+  type:xpath
+  value:".//*[@id='rsidein']/div[3]/i"
+goods:
+  type:xpath
+  value:"//img[@title='精品冷鲜猪肉 蒜香骨']"
+addshoppingcart:
+  type:xpath
+  value:".//*[@id='conbar_2']/div[2]/div[2]/ul/li[1]/a/p"
+shoppingcart:
+  type:xpath
+  value:".//*[@id='rsidein']/div[2]/span"
+allgoods:
+  type:xpath
+  value:".//*[@id='cart_con']/ul/li/div[1]/a/span"
+addgood:
+  type:xpath
+  value:"//a/span[text()='精品冷鲜猪肉 蒜香骨']"

@@ -1,0 +1,12 @@
+已选商品数量:
+  type:id
+  value:totalGoodsNumtext
+去结算:
+  type:id
+  value:pay
+提交订单:
+  type:xpath
+  value:"html/body/div[4]/div/div[2]/a"
+支付页面:
+  type:xpath
+  value:"html/body/div[3]/div/div[1]/div[2]"

@@ -1,0 +1,6 @@
+inputbox:
+  type:xpath
+  value:".//*[@id='first_header_search_input']"
+button:
+  type:xpath
+  value:".//*[@id='search']/div/div/div[2]/div[4]/button"

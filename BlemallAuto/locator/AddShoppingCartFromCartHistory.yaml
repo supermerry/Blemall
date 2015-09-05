@@ -1,0 +1,9 @@
+收藏商品:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[5]/div/div[1]/div"
+加入购物车:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[5]/div/div[2]/ul/li[1]/a[2]"
+商品总数:
+  type:xpath
+  value:".//*[@id='cart']/div[1]/div[3]/div[1]/span[3]"
